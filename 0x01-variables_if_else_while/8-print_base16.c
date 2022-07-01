@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
-* main - Lanzador.
+* main - prints numbers
 *
-* Return: Always 0.
+* Return: Always 0 (Success)
 */
 
 int main(void)
@@ -12,13 +11,9 @@ int main(void)
 	char l = 'a';
 
 	for (a = '0'; a <= '9'; a++)
-	{
-		putchar(a);
-	}
+	putchar(a);
 	for (l = 'a'; l <= 'f'; l++)
-	{
-		putchar(l);
-	}
+	putchar(l);
 	putchar('\n');
 	return (0);
 }
