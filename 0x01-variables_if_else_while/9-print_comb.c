@@ -1,23 +1,24 @@
 #include <stdio.h>
-
 /**
-* main - Print all single digit numbers
-*
-* Return: Always 0.
-*/
-
+ * main - function
+ *
+ * Return: end program
+ */
 int main(void)
 {
-	int a = '0';
+	int x = '0';
 
-	while (a <= '9')
-	putchar(a);
-	if (a == '9')
-	putchar('\n');
-	return (0);
-	else if
-	putchar(',');
-	putchar(' ');
-	a++;
+	while (x <= '9')
+	{
+		putchar(x);
+		if (x != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		x++;
+	}
+
+	putchar(10);
 	return (0);
 }
