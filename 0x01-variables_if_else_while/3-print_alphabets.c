@@ -1,23 +1,19 @@
 #include <stdio.h>
 
 /**
-* main - Lanzador.
+* main - print alphabets
 *
-* Return: Always 0.
+* Return: Always 0 (Success)
 */
 
 int main(void)
 {
-	char a = 'a';
-	char b = 'A';
+	char ch = 'a';
+	char CH = 'A';
 
-	for (a = 'a'; a <= 'z'; a++)
-	{
-		putchar(a);
-	}
-	for (b = 'A'; b <= 'Z'; b++)
-	{
-		putchar(b);
-	}
+	for (ch = 'a'; ch <= 'z'; ch++)
+	putchar(ch);
+	for (CH = 'A'; CH <= 'Z'; CH++)
+	putchar(CH);
 	putchar('\n');
 	return (0);
