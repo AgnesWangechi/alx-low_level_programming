@@ -7,10 +7,15 @@
 
 int main(void)
 {
-char ch;
-while (ch < 10){
 print_alphabet_x10();
-ch++;
-}
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
+print_alphabet_x10();
 return (0);
 }
