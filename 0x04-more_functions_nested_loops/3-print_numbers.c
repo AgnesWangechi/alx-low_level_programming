@@ -1,15 +1,14 @@
 #include "main.h"
-
 /**
- *print_numbers - function
- *
- * Return: Always 0
+ * print_numbers - function
  */
 void print_numbers(void)
 {
-int n = '0';
+	int n = 48;
 
-for (n = '0'; n <= '9'; n++)
-_putchar(n);
-_putchar('\n');
- }
+	while (n < 58)
+	{
+		_putchar(n++);
+	}
+	_putchar(10);
+}
