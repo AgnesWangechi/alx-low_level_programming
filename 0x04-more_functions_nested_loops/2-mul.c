@@ -2,13 +2,12 @@
 /**
  * mul - function
  *
- * @c: The character to evaluate
+ * @a: parameter 1
+ * @b: parameter 2
  *
- * Return: Always 0
+ * Return: return value
  */
 int mul(int a, int b)
 {
-int multiply;
-multiply = a * b;
-return (multiply);
+	return (a * b);
 }
