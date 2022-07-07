@@ -1,14 +1,13 @@
 #include "main.h"
 /**
- * _islower - function
+ * mul - function
  *
  * @c: The character to evaluate
  *
- * Return: Get 1 if c is uppercase,
- * get 0 otherwise
+ * Return: Always 0
  */
 int mul(int a, int b)
 {
-multiply = a*b;
+multiply = a * b;
 return (multiply);
 }
