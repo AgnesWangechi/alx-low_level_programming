@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - function
+ * _isupper - function
  *
  * @c: The character to evaluate
  *
