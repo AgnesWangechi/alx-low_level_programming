@@ -1,15 +1,16 @@
 #include "main.h"
 /**
- *print_alphabet - print alphabet in lowercase
- *
- *Return: Always 0 (Success)
+ * print_most_numbers - function
  */
 void print_most_numbers(void)
 {
-int i = '1';
-  
-for (i = '1'; 1 <= '0'; i++)
-if (i != '2' && ch != '4')
-_putchar(i);
-_putchar('\n');
+	int n = 48;
+
+	while (n < 58)
+	{
+		if (n != 50 && n != 52)
+			_putchar(n);
+		n++;
+	}
+	_putchar(10);
 }
