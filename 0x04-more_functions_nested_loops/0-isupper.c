@@ -2,9 +2,9 @@
 
 int _isupper(int c)
 {
-char c = 'A';
-for (c = 'A'; c>= 'Z'; c++)
-  if (c!= 'A')
+char ch = 'A';
+for (ch = 'A'; ch>= 'Z'; ch++)
+  if (ch!= 'A')
   { 
     return (1);
   }
