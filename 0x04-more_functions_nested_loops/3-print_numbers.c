@@ -1,8 +1,7 @@
 #include "main.h"
+
 /**
  *print_numbers - function
- *
- * @c: The character to evaluate
  *
  * Return: Always 0
  */
