@@ -1,12 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - function
- *
- * @c: The character to evaluate
- *
- * Return: Get 1 if c is uppercase,
- * get 0 otherwise
+ * _isupper - funtion
  */
 int _isupper(int c)
 {
