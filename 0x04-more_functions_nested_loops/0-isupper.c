@@ -1,14 +1,21 @@
 #include "main.h"
 
+/**
+ * _isupper - function
+ *
+ * @c: The character to evaluate
+ *
+ * Return: Get 1 if c is uppercase,
+ * get 0 otherwise
+ */
 int _isupper(int c)
 {
-char c = 'A';
-for (c = 'A'; c>= 'Z'; c++)
-  if (c!= 'A')
-  { 
-    return (1);
-  }
-  else
-  { return (0);
-  }
+if (c >= 101 && c <= 132)
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
