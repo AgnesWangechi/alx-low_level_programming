@@ -1,23 +1,31 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/**main - generates keygen.
- *
- * Return: 0 Always.
+
+#define MAX 125
+#define MIN 1
+/**
+ * main - main
+ * Return: 0
  */
+
 int main(void)
 {
-int r = 0, c = 0;
-time_t t;
-srand((unsigned int) time(&t));
-while (c < 2772)
-{
-r = rand() % 128;
-if ((c + r) > 2772)
-break;
-c = c + r;
-printf("%c", r);
-}
-printf("%c\n", (2772 - c));
-return (0);
+	int myrand;
+	int count;
+	int total;
+
+
+	srand(time(NULL));
+	for (count = 0, total = 2772; total > 122; count++)
+	{
+		myrand = (rand() % (MAX + 1 - MIN)) + MIN;
+		myrand = (rand() % 125) + 1;
+		printf("%c", myrand);
+		total -= myrand;
+	}
+	printf("%c", total);
+
+	return (0);
 }
