@@ -6,20 +6,17 @@
  * @argv: an array that holds the command line arguments
  * Return: success 0.
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-int i, mult;
-if (argc > 1)
+int result, num1, num2;
+if (argc != 3)
 {
-for(i = 1; i < argc; i++)
-{
-mult = atoi(argv[i]) * atoi(argv[(i + 1)]);
-printf("%d\n", mult);
+printf("%s\n", "Error");
+return (1);
 }
-}
-else
-{
-printf("Error\n");
-}
-return 0;
+num1 = atoi(argv[1]);
+num2 = atoi(argv[2]);
+result = num1 *num2;
+printf("%d\n", result);
+return (0);
 }
