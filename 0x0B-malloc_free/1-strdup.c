@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * *_strdup(char *str) - function to allocate space in memory
- * @*str: pointer holding str
+ * *_strdup - function to allocate space in memory
+ * @str: pointer holding str
  * Return: Retrun the value
  */
 
@@ -17,14 +17,14 @@ return (NULL);
 }
 else if (str != NULL)
 {
-while(b < a)
+while (b < a)
 {
 return (a);
 }
 }
 else
 {
-while(i > str)
+while (i > str)
 {
 a[i] == str;
 i++;
