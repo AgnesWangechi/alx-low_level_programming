@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
-#include <std.lib>
+#include <stdlib.h>
 /**
  * create_array - function to create an array and check if the array is empty
  * @c: element of the array
